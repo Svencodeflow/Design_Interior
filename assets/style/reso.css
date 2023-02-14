@@ -1,0 +1,105 @@
+@media only screen and (max-width: 600px) {
+    header div h1, header div p {
+        letter-spacing: 0;
+    }
+
+    main nav {
+        margin: 0;
+        flex-direction: column;
+        justify-content: baseline;
+        align-items: center;
+        text-align: center;
+    }
+
+    main nav div a {
+        margin: 0 auto;
+        padding: 15px;
+    }
+
+    /* Our Story */
+
+    .our_story {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .our_story div:nth-of-type(2) {
+        width: 100vw;
+        height: 100vh;
+    }
+
+    .our_story div:nth-of-type(2) h1 {
+        font-size: 2.5rem;
+
+    }
+
+    .our_story div:nth-of-type(2) p {
+        font-size: 1.25rem;
+        text-align: left;
+    }
+
+    /* feature */
+
+    .featured div:nth-of-type(1) {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .featured div:nth-of-type(1) figure {
+        margin: 0 auto;
+    }
+
+    .featured div:nth-of-type(1) img {
+        width: 60vw;
+        margin: 15px;
+    }
+
+    .featured div:nth-of-type(2) {
+        margin: 0;
+    }
+
+    .featured div:nth-of-type(1) figure figcaption {
+        margin-bottom: 20px;
+    }
+
+    .featured div:nth-of-type(2) iframe {
+        width: 400px;
+        height: 400px;
+    }
+
+    /* get in touch */
+    .getintouch {
+        flex-direction: column;
+        margin: 0;
+    }
+
+    .getintouch div:nth-of-type(1) h1 {
+        margin: 0;
+        text-align: left;
+    }
+    
+    .getintouch div:nth-of-type(1) p {
+        margin: 0;
+        /* width: 90%; */
+        text-align: left;
+    }
+
+    .formular h3 {
+        margin: 0;
+    }
+
+    input[type=submit] {
+        margin: 0;
+        margin-top: 2em;
+    }
+
+    .footer_nav {
+        flex-direction: column;
+        padding: 2em;
+    }
+
+    .footer_nav div p {
+        margin: .5em 0;
+    }
+
+}

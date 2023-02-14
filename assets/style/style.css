@@ -1,0 +1,215 @@
+/* Generel */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 10px;
+}
+
+@font-face {
+    font-family: "lora";
+    src: url("../fonts/lora/Lora-VariableFont_wght.ttf");
+}
+
+@font-face {
+    font-family: "work_sans";
+    src: url("../fonts/work_sans/WorkSans-VariableFont_wght.ttf");
+}
+
+h1 {
+    font-size: 10rem;
+    font-family: "lora";
+    font-weight: 100;
+}
+
+p {
+    font-size: 3rem;
+    font-family: "work_sans";
+}
+
+/* Header */
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header img {
+    height: 100vh;
+}
+
+header div {
+    width: 50vw;
+    text-align: center;
+}
+
+header div h1 {
+    letter-spacing: 50px;
+    margin-bottom: 0.5em;
+}
+
+/* Navbar */
+
+main nav {
+    position: sticky;
+    top: 0;
+    width: 100%;
+    background-color: #2e2e2e;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+main nav div a {
+    margin: 0;
+    margin-right: 5em;
+    margin-left: 4em;
+    text-decoration: none;
+    color: white;
+    font-size: 2rem;
+}
+
+/* Our Story */
+
+.our_story {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #2e2e2e;
+    height: 100vh;
+}
+
+.our_story div:nth-of-type(2) {
+    margin: 0 auto;
+    color: white;
+    width: 41%;
+}
+
+.our_story h1 {
+    text-align: center;
+    font-weight: 600;
+    font-size: 5rem;
+    margin-bottom: 1em;
+}
+
+.our_story p {
+    margin: 0 auto;
+    font-weight: 300;
+    font-size: 2.5rem;
+    margin-bottom: 3em;
+    letter-spacing: 2px;
+}
+
+
+/* Featured */
+
+.featured h1, .featured p {
+    text-align: center;
+    margin-top: 2em;
+}
+
+.featured div:nth-of-type(1) {
+    display: flex;
+    justify-content: space-around;
+}
+
+.featured div:nth-of-type(1) figure {
+    margin-top: 20em;
+    margin-bottom: 7em;
+}
+
+.featured div:nth-of-type(1) img {
+    width: 30vw;
+    margin: 0;
+}
+
+.featured div:nth-of-type(1) figure figcaption {
+    text-align: center;
+    font-size: 2rem;
+    color: grey;
+}
+
+.featured div:nth-of-type(2) {
+    text-align: center;
+    margin-bottom: 35em;
+}
+
+/* Get in Touch */
+
+.getintouch {
+    background-color: #2e2e2e;
+    height: 100vh;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.getintouch div {
+    margin: 0 auto;
+    width: 90%;
+    margin-left: 10em;
+}
+
+.getintouch div:nth-of-type(1) h1 {
+    color: white;
+    /* text-align: center; */
+    font-size: 5rem;
+    margin-bottom: 1em;
+}
+
+.getintouch div:nth-of-type(1) p {
+    color: white;
+    font-size: 2rem;
+    margin-bottom: 2em;
+    width: 80%;
+}
+
+.formular h3 {
+    font-size: 4rem;
+    font-weight: 100;
+    color: white;
+    margin-top: 1em;
+}
+
+input[type=text], input[type=email] {
+    padding: 5px 0;
+    padding-right: 10em;
+
+}
+
+input[type=submit] {
+    margin-top: 4em;
+    padding: 5px;
+}
+
+/* footer */
+
+.footer_nav {
+    background-color: green;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0;
+    padding: 25px 15px;
+}
+
+.footer_nav div p {
+    font-size: 2rem;
+    font-family: "lora";
+    color: white;
+}
+
+.footer_nav div:nth-of-type(3) a {
+    text-decoration: none;
+    color: white;
+    font-size: 2em;
+}
+
+.footer_nav div:nth-of-type(3) a:nth-of-type(2) {
+    padding: 0 2em;
+}
